@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<style>
+  
+	body {
+  		font-family: Lobster;
+  		color: black;
+	}
+	#container {
+		padding:20px;
+	}
+	#header {
+		position:fixed;
+		top:0px;
+		
+	}
+	#navbar {
+		position:fixed;
+		width:100%;
+		height:30px;
+		top:0px;
+	}
+	.nav-link {
+		position: inline-block;
+		float:right;
+		width:20%;
+		text-align:center;
+		color:black;
+	}
+	
+	#welcome-section {
+		padding-top: 30%;
+		text-align:center;
+		height:100vh;
+	}
+	
+	@media (max-width:350px) {
+		#header-img {
+			width:180px;
+		}
+	}
+
+	#projects {
+		padding-top:6%;
+		width:80%;
+		text-align:center;
+		margin:auto;
+		height:100vh;
+	}
+	
+	#contact {
+		padding-top:6%;
+		width:20%;
+		margin-left: auto;
+  		margin-right:auto;
+		height:100vh;
+		text-align:center;
+	}
+
+	.project-tile {
+		
+  		border-width:2%;
+  		color: RGB(210,210,210);
+  		padding:2%;
+	}
+	
+
+	.btn {
+    
+		background-color:black;
+		color:white;
+		margin:10px;
+	}
+
+  
+	
+	.github {
+		float:left;
+	}
+	.codepen {
+		float:right;
+	}	
+</style>
+
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"></link>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<title>Portfolio</title>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+	<header id="header" width="100%">
+		<div class="menu">
+			
+			<nav id="navbar">
+				
+				<a href="#contact" class="nav-link">Contact</a>
+				<a href="#projects" class="nav-link">Projects</a> 
+				
+				<a href="#welcome-section" class="nav-link">About</a> 
+			</nav>
+		</div>
+	</header>
+</div>
+<div id="welcome-section">
+	<h1>Bevan Dady</h1>
+	<h2>A self-taught web developer</h2>
+</div>
+
+<div id="projects"><h2>Projects</h2><br/><br/>
+      <div class="row text-center">
+        <div class="col-md-4 project-tile"><a href="https://codepen.io/bevandady/full/QOazBV/"><img src="https://vufsrg-db3pap001.files.1drv.com/y4mkBF20Ru40Z1cIWSN2Nkyu81UVJWp4Zf8tyyD4bO-Ms3ZBO0sLhLn6FjjsfoGGYNtWa9Xa6hSKzC5fglbHsPeNIVX4_cTjAwhEya6yeSd3Ifoes6RjcJvH7pNUNuLEcg2wGI7ITp77dmn5HMw54a_cWKP1G_r-GrDM1UOH7SowoQ8hFS8QfzxCMXlKZfaLXQljdC78Ke4r-ArbwFo8akb5g?width=800&height=800&cropmode=none" width=300px height=300px></a></div>
+        <div class="col-md-4 project-tile"><a href="https://codepen.io/bevandady/full/XgvZgz/"><img src="https://u0fsrg-db3pap001.files.1drv.com/y4m6x4jysoqnCiblFe4wFvtJjWM0xxou6u__GqUYoiQhLd0UxEJ7tHIZwSBq1AHG3B0OR6tMzKnR4dNA2ttyL6yMoo_J3AqddODjRfjr2ERukCiMDvqjIFfz8xjZIhLa6riSMGuh7RUVoUtwSIuvkKFYOPWpH2H5bn7dOq8uDpjUxZCgrpY4Xn-V0-hT2Ex9uElkYNNGCbTBILYy6flPoO45g?width=1000&height=1000&cropmode=none" width=300px height=300px></a></div>
+        <div class="col-md-4 project-tile"><a href="https://codepen.io/bevandady/full/YrMjYG/"><img src="https://u0e9da-db3pap001.files.1drv.com/y4mzJhSew2BbEkXAFLOcbcd14txVv6kuTZKpi4GajoKSQp91YoG7pNbRfkxljCxu1ZeO1JlXhq-E-JH3CngXwO4C_BDarXgcpRWFVQ_kqjdzAZwb4AVREuMRjZNDeOcIgBkomvhBllS_6EdT-kybp8VyHgshK7Iko2p39acqQAnjIbz2kfY9mGNyzMX6omPlhIPs7eAirV_r-5XC0E5n6YClw?width=573&height=574&cropmode=none" width=300 height=300></a></div>
+        <div class="col-md-4 project-tile"><a href="https://codepen.io/bevandady/full/XaegZm/"><img src="https://wue9da-db3pap001.files.1drv.com/y4mi2Y7kVItC14Xi9ly14wXp1DTwAPm43c5DUMEBPr0_qy9OQ7Fy-nBFITuOhWfrhKtu0RBC_sXQzDopc5x0i05UWOYb-_sfsC9zlqBqaxap2Dv3drprME2ACcgTOIE2HbOkOBzJq2pddzBlPLCDlLqK0hfl5V3Ip5yhhfndAqUBxBqzSj7LBhJTC4slSD5PDaNMd58oenCTCH_c0L9REEETw?width=1024&height=1024&cropmode=none" width=300 height=300></a></div>
+        <div class="col-md-4 project-tile"><a href="https://codepen.io/bevandady/full/jLvKvp/"><img src="https://wee9da-db3pap001.files.1drv.com/y4m8VtNtYUjC-SCp43JiEcoDXrZdxKHoPt8riT6CZESAjITsZ_ojdbl8OxvZ63m_RPYuG_ZQURYDctJfhq2aXyA83uvat-UbfXrKX1terBdHNYwFX-yZRL2SS4iksryq_qK6RKf_e9CpRCEeM-jztRpzuUsk-cBOY3U2W-Vygfc9tBy_Lh0gCV_B51azMb6uQAuGG73UNxCrikN1cNrT8-3Rw?width=1000&height=1000&cropmode=none" width=300 height=300></a></div>
+        <div class="col-md-4 project-tile"><a href="https://codepen.io/bevandady/full/rGYBva/"><img src="https://vkcima-db3pap001.files.1drv.com/y4mlKMLp40NkDBbG_6J06DDr27LunOiOwbaFMX5gYONK-RiYq8jum-yvK8QJSiu548XpjJu05VKgmZ8OY_syafsd2aO9PssUc8znsSnNyI0eALM6PR1k2F6_stwzOp2UCRHPlpcNnLiocWMlDERo7sZxNozpc4EKVg806vAuu1uwJLSP4xb0AYSPM-rNNcWNrMCOD102Jugl1OxZDXRdj13wA?width=1024&height=1024&cropmode=none" width=300 height=300></a></div>
+      </div>
+</div>
+
+
+	
+		
+
+
+<div id="contact">
+	<h2>Contact me</h2><br/><br/>
+	<div class="btnList"><a class="btn github" id="profile-link" href="http://github.com/spr15bd?tab=repositories" target="_blank">GitHub</a>
+    	</div>
+	<div class="btnList"><a class="btn codepen" href="https://codepen.io/bevandady" target="_blank">Codepen</a>
+    	</div>
+	
+		
+		
+	
+</div>
+
+</body>
+
+</html>
